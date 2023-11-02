@@ -7,6 +7,7 @@
     <meta name="description" content="Homepage of Jinyi Xia">
     <title>Jinyi Xia's Homepage</title>
     <link rel="icon" type="image/png" href="imgs/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -82,6 +83,69 @@
                         </h3>
                         <div>
                             Undergraduate student of <i>Engineering</i> in <i>Information Security</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="publications">
+                    <h2 class="text-primary">
+                        <i class="bi bi-newspaper"></i>
+                        Publications
+                    </h2>
+
+                    <div id="iwdw2023" class="mb-4">
+                        <div class="small text-muted">
+                            <i class="bi bi-calendar3"></i>
+                            2023
+                        </div>
+                        <h3 class="fs-4 mb-1">
+                            DNA Steganalysis Based on Multi-dimensional Feature Extraction and Fusion
+                        </h3>
+                        <div>
+                            <i>22nd International
+                                Workshops on Digital Forensics and Watermarking</i>
+                        </div>
+                        <h4 class="fs-5 mt-2 mb-0">
+                            Authors
+                        </h4>
+                        <div>
+                            Zhuang Wang, <b>Jinyi Xia</b>, Kaibo Huang, Shengnan Guo, Chenwei Huang, Zhongliang Yang and
+                            Linna Zhou
+                        </div>
+                        <div class="mt-2 text-muted">
+                            <a class="text-primary">
+                                <i class="bi bi-three-dots"></i>
+                                Details
+                            </a>
+                            /
+                            <a class="text-primary" data-bs-toggle="modal" data-bs-target="#iwdw2023Modal">
+                                <i class="bi bi-quote"></i>
+                                Cite
+                            </a>
+                        </div>
+                        <div id="iwdw2023Modal" class="modal fade">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Cite</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <pre id="idwd2023Cite" class="code">
+@article{wang2023dna,
+    title={DNA Steganalysis Based on Multi-dimensional Feature Extraction and Fusion},
+    year={2023}
+}
+                                        </pre>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" onclick="await navigator.clipboard.writeText($('#idwd2023Cite').text());$('button.btn-primary').html('<i class=\'bi bi-check-circle\'></i> OK');setTimeout(() => {
+                                            $('button.btn-primary').html('Copy');
+                                        }, 1000);">Copy</button>
+                                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
