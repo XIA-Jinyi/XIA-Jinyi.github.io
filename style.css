@@ -1,9 +1,9 @@
 a:not([class*="btn"]) {
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 
 a:not([class*="btn"]):hover {
     text-decoration: underline;
-    color: #316cf4;
+    /* color: #316cf4; */
 }
