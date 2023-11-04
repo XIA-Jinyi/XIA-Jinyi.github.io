@@ -14,7 +14,7 @@ a:not([class*="btn"]):hover {
     }
     #introduction-mobile {
         display: flex;
-        height: 60;
+        height: 64;
         align-items: center;
     }
 }
