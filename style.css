@@ -7,3 +7,20 @@ a:not([class*="btn"]):hover {
     text-decoration: underline;
     /* color: #316cf4; */
 }
+
+@media screen and (max-width: 991px) {
+    #introduction-full {
+        display: none;
+    }
+    #introduction-mobile {
+        display: flex;
+        height: 60;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #introduction-mobile {
+        display: none;
+    }
+}
