@@ -1,0 +1,69 @@
+{
+    "Introduction": {
+        "Name": "Jinyi Xia",
+        "Name-cn": "夏锦熠",
+        "Brief": "Information Security Undergraduate",
+        "Location": "Beijing, China",
+        "Institution": "Beijing University of Posts and Telecommunications (BUPT)",
+        "Email": "jinyi.xia@bupt.edu.cn",
+        "Github": "XIA-Jinyi",
+        "Avatar": "imgs/avatar.jpg"
+    },
+    "Education": [
+        {
+            "Time": "September 2021 - July 2025 (Expected)",
+            "Institution": "Beijing University of Posts and Telecommunications (BUPT)",
+            "Discipline": "Information Security",
+            "Major": "Engineering",
+            "Degree": "Bachelor"
+        }
+    ],
+    "Publications": [
+        {
+            "Time": "2023",
+            "Title": "DNA Steganalysis Based on Multi-dimensional Feature Extraction and Fusion",
+            "Source": "22nd International Workshops on Digital Forensics and Watermarking (IWDW)",
+            "Authors": "Zhuang Wang, <strong>Jinyi Xia</strong>, Kaibo Huang, Shengnan Guo, Chenwei Huang, Zhongliang Yang, and Linna Zhou",
+            "Link": "http://www.iwdw.site/",
+            "Bibtex": "bibtex/iwdw2023.bib"
+        }
+    ],
+    "Experiences": [
+        {
+            "Time": "July 2023 - till now",
+            "Finished": false,
+            "Subject": "\"Yinxin\" — Provably Secure Covert Communication Technology in Uncontrolled Network Environment",
+            "Type": "College Students' Innovation and Entrepreneurship Training Program",
+            "Introduction": "This project proposes a linguistic steganography method based on a large language model, designs a provably secure covert parameter exchange and identity authentication protocol in a public network environment, and develops a covert communication application which is resistant to statistical analysis in the social network.",
+            "Contributions": "Designing communication protocols and implementing client programs.",
+            "Supervisor": "Assoc. Prof. Zhongliang Yang (杨忠良) of BUPT"
+        },
+        {
+            "Time": "August 2022 - June 2023",
+            "Finished": true,
+            "Subject": "Design and Implementation of Accleration Algorithm for Erasure-Correcting Codes of Distributed Storage",
+            "Type": "Provincial College Students' Innovation and Entrepreneurship Training Program",
+            "Introduction": "This project investigates and analyzes acceleration schemes of erasure-correcting coding in current storage systems, and accelerates the encoding and decoding process of important distributed storage coding algorithms, thus improving its data throughput in practical applications.",
+            "Contributions": "Merging accelerated algorithms for encoding and decoding and testing performance.",
+            "Supervisor": "Assoc. Prof. Jie Hao (郝杰) of BUPT"
+        },
+        {
+            "Time": "October 2022 - May 2023",
+            "Finished": true,
+            "Subject": "Intelligent Monitoring System of Shop Flow",
+            "Type": "The second prize of the 7th \"Chuyan Project\" of BUPT",
+            "Introduction": "This project designs and implements an intelligent monitoring system of shop flow, which can provide real-time statistics of the number of people in the shop, and can be used for monitoring and management of the shop.",
+            "Contributions": "Designing and testing client programs.",
+            "Supervisor": "Assoc. Prof. Weihai Li (李巍海) of BUPT"
+        },
+        {
+            "Time": "October 2021 - June 2022",
+            "Finished": true,
+            "Subject": "Kinect-Based Interactive Sports Teaching Platform",
+            "Type": "The third prize of the 6th \"Chuyan Project\" of BUPT",
+            "Introduction": "This project designs and implements a Kinect-based interactive sports teaching platform, which can provide real-time feedback on the user's movements and gestures, and can be used for teaching and training in sports.",
+            "Contributions": "Designing gesture comparison algorithms and implementing client programs.",
+            "Supervisor": "Lecturer Guosheng Xu (徐国胜) of BUPT"
+        }
+    ]
+}
