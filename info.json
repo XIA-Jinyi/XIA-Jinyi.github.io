@@ -22,7 +22,7 @@
         {
             "Time": "2023",
             "Title": "DNA Steganalysis Based on Multi-dimensional Feature Extraction and Fusion",
-            "Source": "22nd International Workshops on Digital Forensics and Watermarking (IWDW2023) <span class=\"badge bg-primary-subtle text-primary-emphasis\">IWDW2023 Best Paper Award</span>",
+            "Source": "22nd International Workshops on Digital Forensics and Watermarking (IWDW2023) <span class=\"badge bg-primary-subtle text-primary-emphasis\" style=\"font-style: normal;\">IWDW2023 Best Paper Award</span>",
             "Authors": "Zhuang Wang*, <strong>Jinyi Xia</strong>*, Kaibo Huang*, Shengnan Guo, Chenwei Huang, Zhongliang Yang, and Linna Zhou<br><div class=\"small\">* Equal contribution</div>",
             "Link": "http://www.iwdw.site/",
             "Bibtex": "bibtex/iwdw2023.bib"
