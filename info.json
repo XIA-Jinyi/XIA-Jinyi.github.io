@@ -24,18 +24,18 @@
             "Title": "DNA Steganalysis Based on Multi-dimensional Feature Extraction and Fusion",
             "Source": "22nd International Workshops on Digital Forensics and Watermarking (IWDW2023) <span class=\"badge bg-primary-subtle text-primary-emphasis\" style=\"font-style: normal;\">IWDW2023 Best Paper Award</span>",
             "Authors": "Zhuang Wang*, <strong>Jinyi Xia</strong>*, Kaibo Huang*, Shengnan Guo, Chenwei Huang, Zhongliang Yang, and Linna Zhou<br><div class=\"small\">* Equal contribution</div>",
-            "Link": "http://www.iwdw.site/",
+            "Link": "http://www.iwdw.site/paper-lists.html",
             "Bibtex": "bibtex/iwdw2023.bib"
         }
     ],
     "Experiences": [
         {
-            "Time": "July 2023 - till now",
+            "Time": "June 2023 - June 2026",
             "Finished": false,
-            "Subject": "\"Yinxin\" — Provably Secure Covert Communication Technology in Uncontrolled Network Environment",
-            "Type": "College Students' Innovation and Entrepreneurship Training Program",
-            "Introduction": "This project proposes a linguistic steganography method based on a large language model, designs a provably secure covert parameter exchange and identity authentication protocol in a public network environment, and develops a covert communication application which is resistant to statistical analysis in the social network.",
-            "Contributions": "Designing communication protocols and implementing client programs.",
+            "Subject": "****** Covert Communication Technology",
+            "Type": "173 Project",
+            "Introduction": "Confidential program.",
+            "Contributions": "Designing communication protocols and implementing client and server programs.",
             "Supervisor": "Assoc. Prof. Zhongliang Yang (杨忠良) of BUPT"
         },
         {
