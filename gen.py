@@ -151,7 +151,7 @@ def gen_doc(data: dict, dark_theme: bool=False) -> str:
             </div>
             <div class="col">
                 <div class="fs-5 text-primary-emphasis">
-                    {data["Introduction"]["Name"]} <span class="fs-6 text-body"> {data["Introduction"]["Name-cn"]} </span>
+                    {data["Introduction"]["Name"]}<br/><span class="fs-6 text-body"> {data["Introduction"]["Name-cn"]} </span>
                 </div>
                 <div>
                     {data["Introduction"]["Brief"]}
