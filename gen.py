@@ -117,7 +117,7 @@ def gen_doc(data: dict, dark_theme: bool=False) -> str:
 </head>
 
 <body>
-    <div class="container-fluid bg-body-tertiary sticky-top">
+    <div class="container-fluid bg-body-tertiary">
         <nav class="navbar navbar navbar-expand-sm">
             <div class="container">
                 <a class="navbar-brand text-primary-emphasis" href="#top" target="_self">About Me</a>
