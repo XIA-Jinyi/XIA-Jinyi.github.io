@@ -30,15 +30,6 @@
     ],
     "Experiences": [
         {
-            "Time": "June 2023 - June 2026",
-            "Finished": false,
-            "Subject": "****** Covert Communication Technology",
-            "Type": "173 Project",
-            "Introduction": "Confidential program.",
-            "Contributions": "Designing communication protocols and implementing client and server programs.",
-            "Supervisor": "Assoc. Prof. Zhongliang Yang (杨忠良) of BUPT"
-        },
-        {
             "Time": "August 2022 - June 2023",
             "Finished": true,
             "Subject": "Design and Implementation of Accleration Algorithm for Erasure-Correcting Codes of Distributed Storage",
