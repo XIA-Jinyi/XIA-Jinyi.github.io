@@ -20,6 +20,13 @@
     ],
     "Publications": [
         {
+            "Time": "2024",
+            "Title": "Highly Efficient DNA Steganalysis Based on Contrastive Learning Framework",
+            "Source": "IEEE Signal Processing Letters (SPL)",
+            "Authors": "Zhengyang Fang, Pengcheng Zhou, <strong>Jinyi Xia</strong>, Kaibo Huang, and Zhongliang Yang",
+            "Bibtex": "bibtex/fang2024highly.bib"
+        },
+        {
             "Time": "2023",
             "Title": "DNA Steganalysis Based on Multi-dimensional Feature Extraction and Fusion",
             "Source": "22nd International Workshops on Digital Forensics and Watermarking (IWDW2023) <span class=\"badge bg-primary-subtle text-primary-emphasis\" style=\"font-style: normal;\">IWDW2023 Best Paper Award</span>",
