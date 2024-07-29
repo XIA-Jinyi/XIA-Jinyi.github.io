@@ -23,8 +23,11 @@ def gen_pub(data: list[dict]) -> str:
     retval = ''
     for item in data:
         id = md5(item['Title'].encode()).hexdigest()
-        with open(item['Bibtex'], 'r') as f:
-            bib = f.read()
+        try:
+            with open(item['Bibtex'], 'r') as f:
+                bib = f.read()
+        except:
+            bib = ''
         retval += f'''
 <div id="{id}" class="mb-4 ms-4">
     <div class="small text-secondary">
@@ -35,7 +38,7 @@ def gen_pub(data: list[dict]) -> str:
             Cite
         </a>
         /
-        <a href="{item["Link"]}" class="text-primary-emphasis">
+        <a href="{item.get('Link', '#')}" class="text-primary-emphasis">
             <i class="bi bi-three-dots"></i>
             Details
         </a>
